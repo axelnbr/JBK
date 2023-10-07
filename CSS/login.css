@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container{
+    width: 100%;
+    height: 800px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #146C94;
+    display: flex;
+}
+
+.car-contain{
+    width: 30%;
+    height: 800px;
+    margin-left: 235px;
+}
+
+.loginform-container{
+    width: 50%;
+    height: 800px;
+    background-color: #146C94;
+    display: flex;
+}
+
+.loginform-container2{
+    width: 50%;
+    height: 400px;
+    background-color: #146C94;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 180px;
+}
+
+
+
+.form-css h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+}
+
+.form-css label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+.form-css input{
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.form-css button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.form-css button:hover{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.form-css p{
+    color: red;
+    font-family: 'Poppins', sans-serif;
+}

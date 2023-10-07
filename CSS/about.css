@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container-about{
+    width: 60%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-founder{
+    width: 20%;
+    height: 400px;
+    background-color: #146C94;
+    display: flex;
+    justify-content: right;
+    border-radius: 20px;
+}
+
+.background-founder-2{
+    width: 70%;
+}
+
+.founder{
+    height: 350px;
+    margin-top: 25px;
+}
+
+.about-founder{
+    width: 50%;
+    height: 350px;
+    margin-right: 5%;
+    margin-top: 25px;
+}
+
+.about-founder h1{
+    color: white;
+    background-color: #146C94;
+    width: 75%;
+    padding: 0px 20px;
+}
+
+.about-founder h3{
+    color: #146C94;
+}
+
+.about-founder p{
+    color: #146C94;
+}
+
+.container-manfaat{
+    width: 60%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: #146C94;
+}
+
+.container-manfaat-2{
+    width: 90%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-manfaat-3{
+    width: 30%;
+    height: 350px;
+    background-color: #146C94;   
+}   
+
+
+.container-manfaat-3 i{
+    color: white;
+    font-size: 120px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.container-manfaat-3 p{
+    color: white;
+    padding: 5px;
+}
+
+.container-inovasi{
+    width: 90%;
+    height: 500px;
+    background-color: #146C94;
+    display: flex;
+    justify-content: right;
+}
+
+.komunitas{
+    width: 50%;
+}
+
+.container-inovasi-isi{
+    width: 40%;
+    height: 330px;
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+
+.container-inovasi-isi h1{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.container-inovasi-isi p{
+    font-size: 20px;
+    padding: 10px;
+}
